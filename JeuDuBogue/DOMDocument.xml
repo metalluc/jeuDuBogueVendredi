@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#2BD563" width="600" height="450" frameRate="18" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" objectsSnapTo="false" viewAngle3D="59.1837342884091" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#2BD563" width="600" height="450" frameRate="18" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" objectsSnapTo="false" viewAngle3D="59.1837342884091" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <media>
           <DOMBitmapItem name="1146519_64492589_600x450.jpg" itemID="522e7421-000002df" sourceExternalFilepath="./LIBRARY/1146519_64492589_600x450.jpg" sourceLastImported="1378776082" externalFileSize="61628" allowSmoothing="true" quality="50" href="1146519_64492589_600x450.jpg" bitmapDataHRef="M 3 1378776097.dat" frameRight="12000" frameBottom="9000" isJPEG="true"/>
           <DOMSoundItem name="Sploutch.mp3" itemID="522f5127-00000368" sourceExternalFilepath="./LIBRARY/Sploutch.mp3" sourceLastImported="1378832577" externalFileSize="17425" href="Sploutch.mp3" soundDataHRef="M 4 1378832637.dat" format="44kHz 16bit Mono" sampleCount="28800" exportFormat="1" exportBits="7" dataLength="10553" exportNative="true" cachedSampleCount="3600"/>
@@ -7,8 +7,10 @@
           <Include href="Bibitte.xml" itemID="5810f2aa-0000001c" lastModified="1477505706"/>
           <Include href="BibitteMorte.xml" loadImmediate="false" itemID="5810f2ad-0000001d" lastModified="1477505709"/>
           <Include href="CorpsBibitte.xml" loadImmediate="false" itemID="5810f2b1-0000001e" lastModified="1477505713"/>
-          <Include href="CycleBibitte.xml" loadImmediate="false" itemID="5810f2b4-0000001f" lastModified="1477505716"/>
+          <Include href="CycleBibitte.xml" loadImmediate="false" itemID="5810f2b4-0000001f" lastModified="1478277849"/>
           <Include href="GameOver.xml" itemID="5810f2b6-00000020" lastModified="1477660931"/>
+          <Include href="Interpoler 1.xml" itemIcon="1" loadImmediate="false" itemID="581cbac5-000000f4" lastModified="1478277829"/>
+          <Include href="Interpoler 2.xml" itemIcon="1" loadImmediate="false" itemID="581cbac5-000000f8" lastModified="1478277829"/>
           <Include href="Tableau.xml" loadImmediate="false" itemID="5810f2b9-00000021" lastModified="1477505969"/>
      </symbols>
      <timelines>
@@ -18,7 +20,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText fontRenderingMode="standard" width="596" height="14.5" isSelectable="false">
+                                        <DOMStaticText fontRenderingMode="standard" width="596" height="16" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="2" ty="452"/>
                                              </matrix>
@@ -26,7 +28,7 @@
                                                   <DOMTextRun>
                                                        <characters>Source de l'image de fond : freeimages.com/photo/pcb-1156908</characters>
                                                        <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" lineHeight="14.5" size="13" bitmapSize="260" face="_sans"/>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" lineHeight="16" size="13" bitmapSize="260" face="_sans"/>
                                                        </textAttrs>
                                                   </DOMTextRun>
                                              </textRuns>
@@ -65,6 +67,8 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="88698" publishTime="1478277993"/>
+          <PublishItem publishSize="88698" publishTime="1478277903"/>
           <PublishItem publishSize="88981" publishTime="1477660943"/>
           <PublishItem publishSize="88981" publishTime="1477660855"/>
           <PublishItem publishSize="89005" publishTime="1477505992"/>
@@ -83,7 +87,5 @@
           <PublishItem publishSize="87819" publishTime="1378835746"/>
           <PublishItem publishSize="87823" publishTime="1378835713"/>
           <PublishItem publishSize="86328" publishTime="1378835204"/>
-          <PublishItem publishSize="86618" publishTime="1378834956" publishDebug="true"/>
-          <PublishItem publishSize="86240" publishTime="1378834754"/>
      </publishHistory>
 </DOMDocument>
