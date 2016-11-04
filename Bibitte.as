@@ -17,6 +17,7 @@
 			rotation = Math.floor(Math.random()*360);
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			addEventListener(MouseEvent.CLICK, tuer);
+			addEventListener(MouseEvent.MOUSE_OVER, surInsect)
 		}
 		
 		private function tuer(e:Event){
@@ -28,6 +29,11 @@
 		
 		public function disparaitre(){
 			MovieClip(parent).oublierBibitte(this);
+		}
+		
+		private function surInsect(e:MouseEvent):void{
+			trace("Dude what")
+			rotation += 5;
 		}
 	}
 }

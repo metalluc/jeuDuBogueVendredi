@@ -6,7 +6,7 @@
 	
 	public class Main extends MovieClip {
 	
-		private var _monTimer:Timer = new Timer(2000); //timer, pour ajouter des bogues aux 2 secondes
+		private var _monTimer:Timer = new Timer(3000); //timer, pour ajouter des bogues aux 2 secondes
 		private var _nbVies:int = 10; //entier, nombre de vies restantes
 		
 		public function Main() {
